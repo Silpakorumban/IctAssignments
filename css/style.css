@@ -1,0 +1,63 @@
+        * {
+            padding: 0%;
+            margin: 0%;
+        }
+        
+        #t2do {
+            margin-left: 2.5%;
+            margin-top: 2%;
+            width: 95%;
+            height: 20em;
+        }
+        
+        .navigation {
+            background-color: aliceblue;
+        }
+        
+        .exp {
+            font-family: 'Times New Roman', Times, serif;
+            color: blue;
+            text-align: left;
+        }
+        
+        .mymargin {
+            margin: 23px;
+        }
+        
+        .exp2 {
+            font-family: 'Times New Roman', Times, serif;
+            color: blue;
+            text-align: left;
+        }
+        
+        .mgin {
+            margin-top: 23px;
+        }
+        
+        .log h1 {
+            font-family: Arial, Helvetica, sans-serif;
+            color: blue;
+            font-weight: lighter;
+        }
+        
+        .fedup {
+            margin-left: 17%;
+        }
+        
+        .input-group p {
+            margin-left: 68%;
+        }
+        
+        .good {
+            margin-left: 43%;
+            margin-bottom: 20%;
+        }
+        
+        .sgnup label {
+            margin-left: 33%;
+        }
+        
+        .sgnup button {
+            margin-left: 41%;
+            margin-bottom: 12%;
+        }
