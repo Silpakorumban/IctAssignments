@@ -73,25 +73,25 @@
             <!-- login starts here -->
             <br>
             <div class="container  col-lg-5">
-                <form>
+                <form id="form2" action="welcome.html">
                     <fieldset>
 
                         <div class="form-group">
                             <label for="TextInput">Your Information</label>
                             <hr>
-                            <input type="text" class="form-control" placeholder="Username (Email)">
+                            <input type="text" class="form-control" placeholder="Username (Email) " id="email1">
                         </div>
                         <br>
                         <div class="form-group">
-                            <input type="text" class="form-control" placeholder="First Name">
+                            <input type="text" class="form-control" placeholder="First Name" id="fname">
                         </div>
                         <br>
                         <div class="form-group">
-                            <input type="text" class="form-control" placeholder="Last Name">
+                            <input type="text" class="form-control" placeholder="Last Name" id="lname">
                         </div>
                         <br>
                         <div class="form-group">
-                            <input type="" class="form-control" placeholder="Phone No">
+                            <input type="text" class="form-control" placeholder="Phone No" id="ph">
                         </div>
                         <br>
                         <div class="form-group">
@@ -99,11 +99,14 @@
                         </div>
                         <hr>
                         <div class="form-group">
-                            <input type="password" class="form-control" placeholder="Enter New Password">
+                            <input type="password" class="form-control strength" placeholder="Enter New Password" id="pwd">
                         </div>
                         <br>
+                        <div>
+                            <label for="error"></label>
+                        </div>
                         <div class="form-group">
-                            <input type="password" class="form-control" placeholder="Confirm your Password">
+                            <input type="password" class="form-control" placeholder="Confirm your Password" id="pwd1">
                         </div>
                         <br>
 
@@ -114,18 +117,19 @@
                     </label>
                         </div>
                         <br>
-                        <button type="submit" class="btn btn-primary"> <a href="#" style="text-decoration: none; color:white;">Submit</a>   </button>
-
-                        <div class="form-group">
-                            <hr style="color: antiquewhite;">
-                            <div class="sgnup">
-                                <label for="TextInput" style="color: white;">Already Have an Account</label>
-                                <br>
-                                <br>
-                                <button type="submit" class="btn btn-primary"> <a href="login.html" target="_blank"style="text-decoration: none; color:white;">Login</a>   </button>
-                            </div>
+                        <button type="submit" class="btn btn-primary" onsubmit="validate()">  Submit </button>
+                </form>
+                <form>
+                    <div class="form-group">
+                        <hr style="color: antiquewhite;">
+                        <div class="sgnup">
+                            <label for="TextInput" style="color: white;">Already Have an Account</label>
+                            <br>
+                            <br>
+                            <button type="submit" class="btn btn-primary"> <a href="login.html" target="_blank"style="text-decoration: none; color:white;">Login</a>   </button>
                         </div>
-                        <br>
+                    </div>
+                    <br>
                 </form>
             </div>
 
@@ -263,5 +267,5 @@
             </div>
     
     </body>
-
+<script src="signup.js "></script>
 </html>
