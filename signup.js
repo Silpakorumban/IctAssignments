@@ -38,6 +38,12 @@ function validate() {
 
     if (!regp.test(pwd.value)) {
         alert("Password Not in Valid Format, it should contain a Minimum of 8 characters and a maximum of 16 characters, Must have one uppercase, lower case, number and special Characters");
+        error.innerHTML = "invalid";
+        error.style.paddingLeft = "200px";
+        error.style.paddingBottom = "10px";
+        error.style.fontSize = "large";
+        error.style.color = "red";
+
         return false;
 
     }
