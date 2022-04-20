@@ -3,7 +3,7 @@ var pwd = document.getElementById("pwd");
 var error = document.getElementById("error");
 var ph = document.getElementById("ph");
 var pwd1 = document.getElementById("pwd1");
-console.log(pwd.value.length());
+
 
 
 const form = document.getElementById("form2");
@@ -22,7 +22,7 @@ function validate() {
 
     var Regex = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
 
-    var regp = /^(?=.*[0-9])(?=.*[A-Z])(?=.*[a-z])(?=.*[!@#$%^&*])[a-zA-Z0-9!@#$%^&*]{8,15}$/;
+    var regp = /^(?=.*[0-9])(?=.*[A-Z])(?=.*[a-z])(?=.*[!@#$%^&*])[a-zA-Z0-9!@#$%^&*]{8,16}$/;
 
     var regph = /^\(?([0-9]{3})\)?[-. ]?([0-9]{3})[-. ]?([0-9]{4})$/;
 
