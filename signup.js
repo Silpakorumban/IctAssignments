@@ -3,6 +3,7 @@ var pwd = document.getElementById("pwd");
 var error = document.getElementById("error");
 var ph = document.getElementById("ph");
 var pwd1 = document.getElementById("pwd1");
+console.log(pwd.value.length());
 
 
 const form = document.getElementById("form2");
