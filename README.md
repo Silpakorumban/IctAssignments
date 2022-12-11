@@ -23,5 +23,5 @@ The requirements are as follows:
 
          3.2. Indicate the strength(strong, medium, poor) of the password using different colors(green, orange, red)
 
-*Github Hosted Link
+*Github Hosted Link: https://silpakorumban.github.io/IctAssignments/
 
